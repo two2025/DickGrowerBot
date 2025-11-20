@@ -67,6 +67,6 @@ ARG ANNOUNCEMENT_EN
 ARG ANNOUNCEMENT_RU
 ENTRYPOINT [ "/usr/local/bin/dickGrowerBot" ]
 
-LABEL org.opencontainers.image.source=https://github.com/kozalosev/DickGrowerBot
+LABEL org.opencontainers.image.source=https://github.com/two2025/DickGrowerBot
 LABEL org.opencontainers.image.description="Who has the biggest dick ever? A game bot for Telegram"
 LABEL org.opencontainers.image.licenses='MIT+"Commons Clause" License Condition v1.0'
