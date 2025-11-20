@@ -2,7 +2,7 @@ version: "3.7"
 services:
   DickGrowerBot:
     build: .
-    image: kozalosev/dickgrowerbot
+    image: two2024/dickgrowerbot
     container_name: dickgrowerbot
     restart: unless-stopped
     environment:
