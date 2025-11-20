@@ -37,7 +37,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:${{ steps.tags.outputs.tag }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/dickgrowerbot:${{ steps.tags.outputs.tag }}
 
   Create-release:
     runs-on: ubuntu-latest
